@@ -1,0 +1,28 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.introSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introText{
+    padding: 24px 32px;
+}
+
+h1{
+    font-size: 64px;
+    font-family: 'Georgia', serif;
+}
+
+p{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 36px;
+    font-family: 'Georgia', serif;
+}

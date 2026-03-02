@@ -18,15 +18,15 @@ const router = createBrowserRouter(
           element: <DefaultPage />
         },
         {
-          path: "/About",
+          path: "About",
           element: <AboutPage />
         },
         {
-          path: "/MyPlants",
+          path: "MyPlants",
           element: <MyPlantsPage />
         },
         {
-          path: "/EditPage/:id",
+          path: "EditPage/:id",
           element: <EditPage />
         },
         

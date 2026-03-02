@@ -5,7 +5,7 @@ export default function AboutPage(){
     return(
         <div className={styles.aboutContainer}>
       <section className={styles.hero}>
-         <h1>We grow better together.</h1>
+         <h1>Together, we're in full bloom.</h1>
         <div className={styles.heroImage}>
            
             <img src={heroImage}/>
@@ -28,7 +28,7 @@ export default function AboutPage(){
 
         <div className={styles.card}>
           <h3>Our Purpose</h3>
-          <p>To take the mystery out of plant care. No more "black thumbs"—only green hearts and thriving jungles.</p>
+          <p>We provide the useful tips you actually need to turn that struggling corner into a sustainable home jungle that fits your lifestyle.</p>
         </div>
       </div>
         </div>

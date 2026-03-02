@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.infoSection}>
-          <h3 className={styles.logo}>Flower Plant</h3>
+          <h3 className={styles.logo}>Flower Plant 🌿</h3>
         </div>
 
         <div className={styles.contactSection}>

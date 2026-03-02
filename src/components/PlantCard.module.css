@@ -1,0 +1,96 @@
+.cardContainer {
+  background-color: #ffffff;
+  border: 1px solid #e0e7e0;
+  border-radius: 16px;
+  padding: 24px;
+  width: 100%;
+  max-width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cardContainer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.cardHeader {
+  border-bottom: 1px solid #f0f4f0;
+  padding-bottom: 12px;
+}
+
+.commonName {
+  font-family: 'Georgia', serif;
+  font-size: 22px;
+  color: #1a331a;
+  margin: 0 0 4px 0;
+}
+
+.scientificName {
+  font-size: 13px;
+  color: #88a088;
+  font-style: italic;
+  margin: 0;
+  text-align: center;
+}
+
+/* Info Section */
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a7c4a;
+}
+
+.value {
+  font-size: 14px;
+  color: #555;
+  text-align: right;
+  max-width: 250px; 
+}
+
+/* Card Bottom Section */
+.cardBottom {
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px dashed #e0e7e0;
+  text-align: center;
+}
+
+.levelText {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.levelText span {
+  font-weight: 700;
+  text-transform: capitalize; 
+}
+
+.beginner {
+  color: #2e7d32; 
+}
+
+.intermediate {
+  color: #ef6c00; 
+}
+
+.expert {
+  color: #c62828; 
+}

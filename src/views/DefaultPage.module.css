@@ -10,12 +10,18 @@
 }
 
 .introText{
-    padding: 24px 32px;
+    padding: 24px 100px;
 }
 
 h1{
+    display: flex;
+    flex-direction: column;
     font-size: 64px;
     font-family: 'Georgia', serif;
+}
+
+h1 span{
+    color: #1a331a;
 }
 
 p{
@@ -25,4 +31,20 @@ p{
 h3{
     font-size: 36px;
     font-family: 'Georgia', serif;
+}
+
+.gallerySection{
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.gallerySection h3{
+    text-align: center;
+}
+
+.galleryItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
 }

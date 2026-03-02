@@ -2,7 +2,7 @@
   "name": "flowerplant",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Gayoung-Han.github.io/FlowerPlant",
+  "homepage": "https://gayoung-han.github.io/FlowerPlant/",
   "type": "module",
   "scripts": {
     "dev": "vite",

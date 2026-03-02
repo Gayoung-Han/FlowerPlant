@@ -6,7 +6,7 @@ import {useState} from 'react'
 function Layout() {
 //lifting up states
     const [plants, setPlants] = useState(()=>{
-        const savedPlants = localStorage.getItem("Plants");
+        const savedPlants = localStorage.getItem("plants");
         return savedPlants? JSON.parse(savedPlants) : [];
     });
 

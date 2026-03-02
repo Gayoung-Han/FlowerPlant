@@ -18,6 +18,10 @@ const router = createBrowserRouter(
           element: <DefaultPage />
         },
         {
+          path: "/About",
+          element: <AboutPage />
+        },
+        {
           path: "/MyPlants",
           element: <MyPlantsPage />
         },
@@ -25,10 +29,7 @@ const router = createBrowserRouter(
           path: "/EditPage/:id",
           element: <EditPage />
         },
-        {
-          path: "/About",
-          element: <AboutPage />
-        }
+        
       ]
     }
   ],

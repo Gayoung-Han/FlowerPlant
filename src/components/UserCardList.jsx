@@ -38,7 +38,7 @@ export default function UserCardList (){
                 <button onClick={() => setFilter("intermediate")}>Intermediates</button>
                 <button onClick={() => setFilter("expert")}>Experts</button>
             </div>
-            <p>{filteredPlants.length} result(s) found</p>
+
             <div className={styles.cardContainer}>
                 { filteredPlants.length > 0 ? (
                        filteredPlants.map(plant=>
@@ -51,7 +51,7 @@ export default function UserCardList (){
                 
             )
                 ) : (
-                    <p>No result of {filter}</p>
+                    <p>No result of plants for {filter}</p>
                 )
           
         }

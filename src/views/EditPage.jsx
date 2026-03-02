@@ -8,8 +8,9 @@ export default function EditPage() {
     let navigate = useNavigate();
 
   // Find the specific event that the user wants to update
-  const plant = plants.find(plant => plant.id === Number(id)); // Find the event in question
- 
+  const plant = plants.find(plant => plant.id === id); // Find the event in question
+  
+
   const [commonName, setCommonName] = useState("");
   const [scientificName, setScientificName] = useState("");
   const [light, setLight] = useState("");
@@ -41,9 +42,10 @@ export default function EditPage() {
   // When the user presses form update button, the specific event
   // is updated.
   function updateHandler(e) {
+    
     e.preventDefault();
     const updatedPlant = { 
-        id: Number(id), 
+        id: id, 
         commonName: commonName,
         scientificName: scientificName,
         light: light,
@@ -52,8 +54,9 @@ export default function EditPage() {
         level: level
         
      };
+
     setPlants(plants.map((plant) =>
-      plant.id === Number(id) ? updatedPlant : plant
+      plant.id === id ? updatedPlant : plant
     )
   );
 

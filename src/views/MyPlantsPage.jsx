@@ -1,5 +1,11 @@
+import UserCardForm from '../components/UserCardForm'
+import UserCardList from '../components/UserCardList'
+
 export default function MyPlantsPage(){
     return(
-        <div>this is my plants page</div>
+        <>
+        <UserCardForm/>
+        <UserCardList/>
+        </>
     )
 }

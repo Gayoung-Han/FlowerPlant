@@ -1,0 +1,86 @@
+.createForm {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e0e7e0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.formTitle {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  color: #1a331a;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.inputBox {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a7c4a;
+  margin-bottom: 8px;
+}
+
+.inputBox input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.2s;
+}
+
+.inputBox input:focus {
+  outline: none;
+  border-color: #4a7c4a;
+}
+
+.radioSection {
+  margin: 25px 0;
+  padding: 15px;
+  background-color: #f9fbf9;
+  border-radius: 8px;
+}
+
+.radioSection p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.radioGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radioGroup label {
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 15px;
+  background-color: #113d11;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submitBtn:hover {
+  background-color: #2d5a2d;
+}

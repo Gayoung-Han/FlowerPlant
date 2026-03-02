@@ -1,0 +1,137 @@
+.cardContainer {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 24px;
+  border: 1px solid #f0f2f0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+  position: relative; /* 버튼 배치를 위해 */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cardContainer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Header 영역 */
+.cardHeader {
+  border-bottom: 2px solid #f9fbf9;
+  padding-bottom: 12px;
+}
+
+.commonName {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  font-size: 22px;
+  color: #1a331a;
+  letter-spacing: -0.5px;
+}
+
+.scientificName {
+  margin: 4px 0 0 0;
+  font-size: 14px;
+  color: #88a088;
+  font-style: italic;
+}
+
+/* 상세 정보 영역 */
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.label {
+  color: #4a7c4a;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.value {
+  color: #555;
+  font-weight: 400;
+}
+
+/* 하단 난이도 영역 */
+.cardBottom {
+  background: #f9fbf9;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-top: auto; /* 하단 밀착 */
+}
+
+.levelText {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+}
+
+/* 난이도별 동적 색상 매칭 */
+.beginner {
+  color: #2d8a2d;
+  font-weight: 700;
+}
+
+.intermediate {
+  color: #d97706;
+  font-weight: 700;
+}
+
+.expert {
+  color: #dc2626;
+  font-weight: 700;
+}
+
+.btnBox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+}
+
+.deleteBtn {
+  background: transparent;
+  border: 1px solid #ffeded;
+  color: #ff5c5c;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.deleteBtn:hover {
+  background: #fff5f5;
+  border-color: #ff5c5c;
+}
+
+
+.editBtn {
+  background: transparent;
+   text-decoration: none;
+  border: 1px solid #dde0f2;
+  color: #5c77ff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.editBtn:hover {
+  background: #dde0f2;
+  border-color: #6e85f6;
+}

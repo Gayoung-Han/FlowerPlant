@@ -5,6 +5,7 @@ import './App.css';
 import DefaultPage from "./views/DefaultPage";
 import MyPlantsPage from "./views/MyPlantsPage";
 import AboutPage from "./views/AboutPage";
+import EditPage from "./views/EditPage";
 
 const router = createBrowserRouter(
   [
@@ -19,6 +20,10 @@ const router = createBrowserRouter(
         {
           path: "/MyPlants",
           element: <MyPlantsPage />
+        },
+        {
+          path: "/EditPage/:id",
+          element: <EditPage />
         },
         {
           path: "/About",

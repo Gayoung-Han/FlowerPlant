@@ -1,10 +1,10 @@
 import gardenImage from '../assets/vangoghmuseum-s0459S1996-800.jpg'
 import styles from './DefaultPage.module.css';
-import PlantCard from '../components/PlantCard'
+import ExampleCard from '../components/ExampleCard';
 
 export default function DefaultPage(){
 
-    const predefinedPlants = [
+    const examplePlants = [
     {
         id: 1,
         commonName: "Snake Plant", 
@@ -65,10 +65,10 @@ export default function DefaultPage(){
                 <h3>See what other plant parents have shared.</h3>
                 <div className={styles.galleryItems}>
                     {
-                    predefinedPlants.map(plant => (
-                        <PlantCard 
-                            key={plant.id}
-                            plant={plant}
+                     examplePlants.map(example => (
+                        <ExampleCard
+                            key={example.id}
+                            example={example}
                         /> 
                     ))
                 }

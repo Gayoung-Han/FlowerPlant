@@ -35,7 +35,7 @@ h3{
 
 .gallerySection{
     margin-top: 32px;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
 }
 
 .gallerySection h3{
@@ -47,4 +47,19 @@ h3{
     flex-direction: row;
     justify-content: space-evenly;
     gap: 10px;
+}
+
+.tipImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
+
+ul{
+    text-align: center;
+    list-style: none;    
+    padding: 0;         
+    margin: 16px; 
+    font-size: 24px;          
 }

@@ -102,7 +102,7 @@ export default function UserCardForm() {
         </div>
       </div>
 
-      <button className={styles.submitBtn} type="submit">Share my Plant</button>
+      <button className={styles.submitBtn} type="submit">Create my plant's guide</button>
     </form>
   );
 }

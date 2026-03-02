@@ -1,23 +1,24 @@
 .createForm {
-  max-width: 500px;
-  margin: 40px auto;
-  padding: 30px;
+  max-width: 520px;
+  margin: 50px auto;
+  padding: 35px;
   background-color: #ffffff;
-  border-radius: 12px;
-  border: 1px solid #e0e7e0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 8px 30px rgba(37, 99, 235, 0.08);
 }
 
 .formTitle {
   font-family: 'Georgia', serif;
-  font-size: 24px;
-  color: #1a331a;
-  margin-bottom: 25px;
+  font-size: 26px;
+  color: #1e3a8a;
+  margin-bottom: 30px;
   text-align: center;
+  letter-spacing: 0.5px;
 }
 
 .inputBox {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   display: flex;
   flex-direction: column;
 }
@@ -25,34 +26,39 @@
 .inputBox label {
   font-size: 14px;
   font-weight: 600;
-  color: #4a7c4a;
+  color: #1d4ed8;
   margin-bottom: 8px;
 }
 
 .inputBox input {
-  padding: 12px;
-  border: 1px solid #ddd;
+  padding: 13px;
+  border: 1px solid #cbd5e1;
   border-radius: 8px;
   font-size: 15px;
-  transition: border-color 0.2s;
+  background-color: #f8fafc;
+  transition: all 0.2s ease;
 }
 
 .inputBox input:focus {
   outline: none;
-  border-color: #4a7c4a;
+  border-color: #2563eb;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
 }
 
 .radioSection {
-  margin: 25px 0;
-  padding: 15px;
-  background-color: #f9fbf9;
-  border-radius: 8px;
+  margin: 28px 0;
+  padding: 18px;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
 }
 
 .radioSection p {
-  margin: 0 0 10px 0;
+  margin: 0 0 12px 0;
   font-size: 14px;
-  color: #555;
+  font-weight: 500;
+  color: #334155;
 }
 
 .radioGroup {
@@ -65,22 +71,26 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
+  color: #1e3a8a;
 }
 
 .submitBtn {
   width: 100%;
   padding: 15px;
-  background-color: #113d11;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.2);
 }
 
 .submitBtn:hover {
-  background-color: #2d5a2d;
+  background: linear-gradient(135deg, #1e40af, #1d4ed8);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.3);
+  transform: translateY(-1px);
 }

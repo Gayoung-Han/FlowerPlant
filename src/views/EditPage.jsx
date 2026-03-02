@@ -137,7 +137,7 @@ export default function EditPage() {
                 </div>
               </div>
         
-              <button className={styles.submitBtn} type="submit">Share my Plant</button>
+              <button className={styles.submitBtn} type="submit">Edit my Plant</button>
             </form>
         </>
   );

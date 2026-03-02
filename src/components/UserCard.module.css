@@ -4,8 +4,10 @@
   padding: 24px;
   border: 1px solid #f0f2f0;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  max-height: 300px;
+  width: 230px;
   transition: all 0.3s ease;
-  position: relative; /* 버튼 배치를 위해 */
+  position: relative; 
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -16,7 +18,7 @@
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 
-/* Header 영역 */
+/* Header */
 .cardHeader {
   border-bottom: 2px solid #f9fbf9;
   padding-bottom: 12px;
@@ -37,7 +39,7 @@
   font-style: italic;
 }
 
-/* 상세 정보 영역 */
+
 .cardInfo {
   display: flex;
   flex-direction: column;
@@ -63,12 +65,12 @@
   font-weight: 400;
 }
 
-/* 하단 난이도 영역 */
+/* difficulty */
 .cardBottom {
   background: #f9fbf9;
   padding: 10px 15px;
   border-radius: 10px;
-  margin-top: auto; /* 하단 밀착 */
+  margin-top: auto; 
 }
 
 .levelText {
@@ -95,9 +97,8 @@
 
 .btnBox{
     display: flex;
-    flex-direction: row;
     width: 100%;
-    gap: 30px;
+    margin-bottom: 20px;
 }
 
 .deleteBtn {
@@ -110,6 +111,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
+  margin-left: 95px;
 }
 
 .deleteBtn:hover {

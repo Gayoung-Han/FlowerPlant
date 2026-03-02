@@ -2,7 +2,29 @@ import gardenImage from '../assets/vangoghmuseum-s0459S1996-800.jpg'
 import styles from './DefaultPage.module.css';
 import ExampleCard from '../components/ExampleCard';
 
+import gardener1 from '../assets/vangoghmuseum-s0171V1962-800.jpg';
+import gardener2 from '../assets/vangoghmuseum-s0172V1962-800.jpg';
+import gardener3 from '../assets/vangoghmuseum-s0173V1962-800.jpg';
+
 export default function DefaultPage(){
+
+    const gardenersTips=[
+        {
+            id:1,
+            image: gardener1,
+            text: "Always wake up early to clean around the plants"
+        },
+        {
+            id:2,
+            image: gardener2,
+            text: "It is important to clean up some weeds to protect your plant"
+        },
+         {
+            id:3,
+            image: gardener3,
+            text: "Sometimes you should hug your plants as if they are your wife"
+        },
+    ]
 
     const examplePlants = [
     {
@@ -62,7 +84,7 @@ export default function DefaultPage(){
             </div>
 
              <div className={styles.gallerySection}>
-                <h3>See what other plant parents have shared.</h3>
+                <h3>See what plant guides are posted by others.</h3>
                 <div className={styles.galleryItems}>
                     {
                      examplePlants.map(example => (
@@ -74,6 +96,25 @@ export default function DefaultPage(){
                 }
                 </div>
 
+            </div>
+              <div className={styles.gallerySection}>
+                <h3>General Care Basics offered by Flower Plant</h3>
+                <div className={styles.tipImage}>
+                {
+                    gardenersTips.map( tip => (
+                        
+                        <img src={tip.image} width="250" height="300"/>
+            
+                    ))
+                }
+                </div>
+                <ul>
+                    {
+                        gardenersTips.map( tip => (
+                            <li>{tip.text}</li>
+                        ))
+                    }
+                </ul>
             </div>
         </main>
         

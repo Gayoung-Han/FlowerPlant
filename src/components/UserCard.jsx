@@ -29,7 +29,7 @@ export default function PlantCard({ plant, deleteUserCard}) {
 
             <div className={styles.cardBottom}>
                 <p className={styles.levelText}>
-                    This plant is suitable for <span className={styles[lowerLevel]}>{lowerLevel}</span>
+                    This 🌱 is suitable for <span className={styles[lowerLevel]}>{lowerLevel}</span>
                 </p>
             </div>
             <div className="btnBox">

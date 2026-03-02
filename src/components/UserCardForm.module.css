@@ -1,39 +1,39 @@
 .createForm {
-  max-width: 500px;
-  margin: 40px auto;
-  padding: 30px;
+  max-width: 400px;     
+  margin: 30px auto;     
+  padding: 20px;         
   background-color: #ffffff;
   border-radius: 12px;
   border: 1px solid #e0e7e0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 .formTitle {
   font-family: 'Georgia', serif;
-  font-size: 24px;
+  font-size: 20px;       
   color: #1a331a;
-  margin-bottom: 25px;
+  margin-bottom: 20px;   
   text-align: center;
 }
 
 .inputBox {
-  margin-bottom: 20px;
+  margin-bottom: 16px;   
   display: flex;
   flex-direction: column;
 }
 
 .inputBox label {
-  font-size: 14px;
+  font-size: 13px;      
   font-weight: 600;
   color: #4a7c4a;
-  margin-bottom: 8px;
+  margin-bottom: 6px;    
 }
 
 .inputBox input {
-  padding: 12px;
+  padding: 10px;        
   border: 1px solid #ddd;
   border-radius: 8px;
-  font-size: 15px;
+  font-size: 14px;       
   transition: border-color 0.2s;
 }
 
@@ -43,15 +43,15 @@
 }
 
 .radioSection {
-  margin: 25px 0;
-  padding: 15px;
+  margin: 20px 0;        
+  padding: 12px;          
   background-color: #f9fbf9;
   border-radius: 8px;
 }
 
 .radioSection p {
-  margin: 0 0 10px 0;
-  font-size: 14px;
+  margin: 0 0 8px 0;    
+  font-size: 13px;       
   color: #555;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .radioGroup label {
-  font-size: 14px;
+  font-size: 13px;       
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -70,12 +70,12 @@
 
 .submitBtn {
   width: 100%;
-  padding: 15px;
+  padding: 12px;        
   background-color: #113d11;
   color: white;
   border: none;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 15px;       
   font-weight: 600;
   cursor: pointer;
   transition: background 0.3s;
